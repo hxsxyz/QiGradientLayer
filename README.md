@@ -1,0 +1,2 @@
+# QiGradientLayer
+iOS渐变色绘制之CAGradientLayer
