@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		060713AB2164960900A31A71 /* QiGradientLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 060713AA2164960900A31A71 /* QiGradientLayerViewController.m */; };
 		069397C52161F4F800AE6C86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 069397C42161F4F800AE6C86 /* AppDelegate.m */; };
 		069397C82161F4F800AE6C86 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 069397C72161F4F800AE6C86 /* ViewController.m */; };
 		069397CB2161F4F800AE6C86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 069397C92161F4F800AE6C86 /* Main.storyboard */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		060713A92164960900A31A71 /* QiGradientLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiGradientLayerViewController.h; sourceTree = "<group>"; };
+		060713AA2164960900A31A71 /* QiGradientLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiGradientLayerViewController.m; sourceTree = "<group>"; };
 		069397C02161F4F800AE6C86 /* QiGradientLayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiGradientLayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		069397C32161F4F800AE6C86 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		069397C42161F4F800AE6C86 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -65,6 +68,8 @@
 				069397C42161F4F800AE6C86 /* AppDelegate.m */,
 				069397C62161F4F800AE6C86 /* ViewController.h */,
 				069397C72161F4F800AE6C86 /* ViewController.m */,
+				060713A92164960900A31A71 /* QiGradientLayerViewController.h */,
+				060713AA2164960900A31A71 /* QiGradientLayerViewController.m */,
 				069397D921620A8B00AE6C86 /* QiGradientLayer.h */,
 				069397DA21620A8B00AE6C86 /* QiGradientLayer.m */,
 				069397C92161F4F800AE6C86 /* Main.storyboard */,
@@ -148,6 +153,7 @@
 			files = (
 				069397C82161F4F800AE6C86 /* ViewController.m in Sources */,
 				069397DB21620A8B00AE6C86 /* QiGradientLayer.m in Sources */,
+				060713AB2164960900A31A71 /* QiGradientLayerViewController.m in Sources */,
 				069397D32161F4F900AE6C86 /* main.m in Sources */,
 				069397C52161F4F800AE6C86 /* AppDelegate.m in Sources */,
 			);
