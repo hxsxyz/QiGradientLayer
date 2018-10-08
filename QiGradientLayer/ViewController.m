@@ -27,7 +27,7 @@ static NSString *cellIdentifier = @"cellIdentifier";
     self.edgesForExtendedLayout = UIRectEdgeNone;
     self.view.backgroundColor = [UIColor whiteColor];
     
-    _texts = @[@"渐变视图", @"渐变进度条（正向）", @"渐变进度条（反向）", @"渐变圆弧"];
+    _texts = @[@"渐变视图", @"渐变进度条（正向）", @"渐变进度条（反向）", @"渐变圆弧（闭合）", @"渐变圆弧（开放）"];
     
     _tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
     _tableView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;

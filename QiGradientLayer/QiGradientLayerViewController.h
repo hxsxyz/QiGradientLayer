@@ -12,7 +12,8 @@ typedef NS_ENUM(NSUInteger, QiGradientLayerType) {
     QiGradientLayerTypeView,
     QiGradientLayerTypeProgressForward,
     QiGradientLayerTypeProgressBackward,
-    QiGradientLayerTypeArc,
+    QiGradientLayerTypeArcClosed,
+    QiGradientLayerTypeArcOpend,
 };
 
 NS_ASSUME_NONNULL_BEGIN

@@ -14,7 +14,6 @@
 		069397CD2161F4F900AE6C86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 069397CC2161F4F900AE6C86 /* Assets.xcassets */; };
 		069397D02161F4F900AE6C86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 069397CE2161F4F900AE6C86 /* LaunchScreen.storyboard */; };
 		069397D32161F4F900AE6C86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 069397D22161F4F900AE6C86 /* main.m */; };
-		069397DB21620A8B00AE6C86 /* QiGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 069397DA21620A8B00AE6C86 /* QiGradientLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +29,6 @@
 		069397CF2161F4F900AE6C86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		069397D12161F4F900AE6C86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		069397D22161F4F900AE6C86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		069397D921620A8B00AE6C86 /* QiGradientLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiGradientLayer.h; sourceTree = "<group>"; };
-		069397DA21620A8B00AE6C86 /* QiGradientLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiGradientLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,8 +67,6 @@
 				069397C72161F4F800AE6C86 /* ViewController.m */,
 				060713A92164960900A31A71 /* QiGradientLayerViewController.h */,
 				060713AA2164960900A31A71 /* QiGradientLayerViewController.m */,
-				069397D921620A8B00AE6C86 /* QiGradientLayer.h */,
-				069397DA21620A8B00AE6C86 /* QiGradientLayer.m */,
 				069397C92161F4F800AE6C86 /* Main.storyboard */,
 				069397CC2161F4F900AE6C86 /* Assets.xcassets */,
 				069397CE2161F4F900AE6C86 /* LaunchScreen.storyboard */,
@@ -152,7 +147,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				069397C82161F4F800AE6C86 /* ViewController.m in Sources */,
-				069397DB21620A8B00AE6C86 /* QiGradientLayer.m in Sources */,
 				060713AB2164960900A31A71 /* QiGradientLayerViewController.m in Sources */,
 				069397D32161F4F900AE6C86 /* main.m in Sources */,
 				069397C52161F4F800AE6C86 /* AppDelegate.m in Sources */,
