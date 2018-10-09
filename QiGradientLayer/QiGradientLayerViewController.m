@@ -51,14 +51,15 @@
             CAGradientLayer *gradientLayer = [CAGradientLayer layer];
             gradientLayer.frame = imageView.bounds;
             // 设置渐变颜色数组
-            gradientLayer.colors = @[(__bridge id)[[UIColor purpleColor] colorWithAlphaComponent:.7].CGColor,
-                                     (__bridge id)[[UIColor blueColor] colorWithAlphaComponent:.7].CGColor];
+            gradientLayer.colors = @[(__bridge id)[[UIColor redColor] colorWithAlphaComponent:1.0].CGColor,
+                                     (__bridge id)[[UIColor greenColor] colorWithAlphaComponent:1.0].CGColor,
+                                     (__bridge id)[[UIColor blueColor] colorWithAlphaComponent:1.0].CGColor];
             // 设置渐变起始点
             gradientLayer.startPoint = CGPointMake(.0, .0);
             // 设置渐变结束点
-            gradientLayer.endPoint = CGPointMake(.0, 1.0);
+            gradientLayer.endPoint = CGPointMake(1.0, .0);
             // 设置渐变颜色分布区间，不设置则均匀分布
-            // gradientLayer.locations = @[@(0.0), @(1.0)];
+            // gradientLayer.locations = @[@(0.25), @(.5), @(.75)];
             // 设置渐变类型，不设置则按像素均匀变化
             // gradientLayer.type = kCAGradientLayerAxial;// 按像素均匀变化
             [imageView.layer addSublayer:gradientLayer];
